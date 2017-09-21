@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{64D53CD6-4907-41F1-8323-D5A329FE42AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>House</RootNamespace>
+    <AssemblyName>House</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Deng_lu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deng_lu.Designer.cs">
+      <DependentUpon>Deng_lu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ding_dan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ding_dan.Designer.cs">
+      <DependentUpon>Ding_dan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ding_fang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ding_fang.Designer.cs">
+      <DependentUpon>Ding_fang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="houseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houseDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houseDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houseDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houseDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houseDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houseDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houseDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houseDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houseDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houseDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houseDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houseDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houseDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houseDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houseDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houseDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houseDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houseDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houseDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Huan_fang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huan_fang.Designer.cs">
+      <DependentUpon>Huan_fang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ke_Guangli_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ke_Guangli_1.Designer.cs">
+      <DependentUpon>Ke_Guangli_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ke_Guanli_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ke_Guanli_2.Designer.cs">
+      <DependentUpon>Ke_Guanli_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ke_Xinxi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ke_Xinxi.Designer.cs">
+      <DependentUpon>Ke_Xinxi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shou_ye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shou_ye.Designer.cs">
+      <DependentUpon>Shou_ye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tui_fang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tui_fang.Designer.cs">
+      <DependentUpon>Tui_fang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zhu_ce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zhu_ce.Designer.cs">
+      <DependentUpon>Zhu_ce.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Deng_lu.resx">
+      <DependentUpon>Deng_lu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ding_dan.resx">
+      <DependentUpon>Ding_dan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ding_fang.resx">
+      <DependentUpon>Ding_fang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huan_fang.resx">
+      <DependentUpon>Huan_fang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ke_Guangli_1.resx">
+      <DependentUpon>Ke_Guangli_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ke_Guanli_2.resx">
+      <DependentUpon>Ke_Guanli_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ke_Xinxi.resx">
+      <DependentUpon>Ke_Xinxi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shou_ye.resx">
+      <DependentUpon>Shou_ye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Tui_fang.resx">
+      <DependentUpon>Tui_fang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zhu_ce.resx">
+      <DependentUpon>Zhu_ce.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="houseDataSet.xsc">
+      <DependentUpon>houseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houseDataSet.xss">
+      <DependentUpon>houseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet1.xsc">
+      <DependentUpon>houseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houseDataSet1.xss">
+      <DependentUpon>houseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet10.xsc">
+      <DependentUpon>houseDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houseDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houseDataSet10.xss">
+      <DependentUpon>houseDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet17.xsc">
+      <DependentUpon>houseDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houseDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houseDataSet17.xss">
+      <DependentUpon>houseDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet2.xsc">
+      <DependentUpon>houseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houseDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houseDataSet2.xss">
+      <DependentUpon>houseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet3.xsc">
+      <DependentUpon>houseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houseDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houseDataSet3.xss">
+      <DependentUpon>houseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet4.xsc">
+      <DependentUpon>houseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houseDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houseDataSet4.xss">
+      <DependentUpon>houseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet5.xsc">
+      <DependentUpon>houseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houseDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houseDataSet5.xss">
+      <DependentUpon>houseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet6.xsc">
+      <DependentUpon>houseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houseDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houseDataSet6.xss">
+      <DependentUpon>houseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet7.xsc">
+      <DependentUpon>houseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houseDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houseDataSet7.xss">
+      <DependentUpon>houseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet8.xsc">
+      <DependentUpon>houseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houseDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houseDataSet8.xss">
+      <DependentUpon>houseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet9.xsc">
+      <DependentUpon>houseDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="houseDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houseDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houseDataSet9.xss">
+      <DependentUpon>houseDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
